@@ -5,7 +5,7 @@ pipeline {
              steps {
                  
                    withAWS(credentials:'aws-static') {
-                       s3Upload(file:'index.html', bucket:'static-jenkins-build', path:'./index.html')
+                       s3Upload(file:'index.html', bucket:'static-jenkins-build', path:'index.html')
                    }
 
 
