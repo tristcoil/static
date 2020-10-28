@@ -7,7 +7,7 @@ pipeline {
              steps {
                     sh 'tidy -q -e *.html'
                    }
-
+             }
 
 
 
